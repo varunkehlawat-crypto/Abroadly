@@ -1,0 +1,186 @@
+/* =========================================
+   COMPARE SECTION
+========================================= */
+
+.compare-section {
+  margin-top: 90px;
+}
+
+/* =========================================
+   SELECTORS
+========================================= */
+
+.compare-selectors {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  margin-top: 40px;
+
+  flex-wrap: wrap;
+}
+
+.compare-selectors select {
+  padding: 14px 18px;
+
+  border-radius: 14px;
+
+  border: none;
+
+  background: var(--surface-low);
+
+  color: var(--text);
+
+  font-size: 1rem;
+
+  min-width: 220px;
+
+  outline: none;
+}
+
+.vs-text {
+  font-size: 1.2rem;
+
+  font-weight: 700;
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.compare-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(300px, 1fr)
+    );
+
+  gap: 28px;
+
+  margin-top: 50px;
+}
+
+/* =========================================
+   CARD
+========================================= */
+
+.compare-card {
+  background:
+    rgba(15, 23, 42, 0.72);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.06);
+
+  border-radius: 28px;
+
+  margin-bottom: 100px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 40px
+      rgba(0, 0, 0, 0.25);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.compare-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 20px 44px
+      rgba(0, 0, 0, 0.35);
+}
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.compare-card img {
+  width: 100%;
+
+  height: 220px;
+
+  object-fit: cover;
+}
+
+/* =========================================
+   TITLE
+========================================= */
+
+.compare-card h3 {
+  font-size: 1.5rem;
+
+  padding: 22px 22px 8px;
+}
+
+/* =========================================
+   INFO
+========================================= */
+
+.compare-info {
+  padding: 0 22px 22px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.compare-info p {
+  color:
+    rgba(255, 255, 255, 0.78);
+
+  line-height: 1.7;
+}
+
+/* =========================================
+   LIGHT MODE
+========================================= */
+
+body:not(.dark-mode)
+  .compare-card {
+  background: white;
+
+  border:
+    1px solid
+    rgba(15, 23, 42, 0.08);
+}
+
+body:not(.dark-mode)
+  .compare-info p {
+  color: #334155;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 700px) {
+  .compare-section {
+    margin-top: 70px;
+  }
+
+  .compare-selectors {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .compare-selectors select {
+    width: 100%;
+  }
+
+  .vs-text {
+    display: none;
+  }
+}

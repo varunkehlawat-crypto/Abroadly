@@ -1,0 +1,306 @@
+/* =========================================
+   PREMIUM LOGO
+========================================= */
+
+.brand-logo {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  text-decoration: none;
+
+  font-size: 24px;
+
+  font-weight: 800;
+
+  transition: 0.3s;
+}
+
+/* DARK MODE */
+
+body.dark-mode .brand-logo {
+  color: white;
+}
+
+body.dark-mode .brand-icon {
+  background:
+    linear-gradient(
+      135deg,
+      #4d8eff,
+      #7ab8ff
+    );
+
+  box-shadow:
+    0 10px 30px
+      rgba(77, 142, 255, 0.35);
+}
+
+/* LIGHT MODE */
+
+body:not(.dark-mode)
+  .brand-logo {
+  color: #0f172a;
+}
+
+body:not(.dark-mode)
+  .brand-icon {
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #60a5fa
+    );
+
+  box-shadow:
+    0 10px 24px
+      rgba(37, 99, 235, 0.22);
+}
+
+/* COMMON */
+
+.brand-icon {
+  width: 42px;
+
+  height: 42px;
+
+  border-radius: 14px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  transition: 0.3s;
+}
+
+.brand-icon span {
+  color: white;
+
+  font-size: 22px;
+}
+
+.brand-logo:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   PRIMARY BUTTON
+========================================= */
+
+.primary-button {
+  min-height: 44px;
+
+  border-radius: var(--radius);
+
+  border: none;
+
+  padding: 0 24px;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+
+  transition:
+    transform 150ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+/* DARK MODE */
+
+body.dark-mode .primary-button {
+  background:
+    linear-gradient(
+      135deg,
+      #4d8eff,
+      #367cff
+    );
+
+  color: white;
+}
+
+body.dark-mode
+  .primary-button:hover {
+  background:
+    linear-gradient(
+      135deg,
+      #66a0ff,
+      #4d8eff
+    );
+}
+
+/* LIGHT MODE */
+
+body:not(.dark-mode)
+  .primary-button {
+  background: #0051d5;
+
+  color: white;
+}
+
+body:not(.dark-mode)
+  .primary-button:hover {
+  background: #0044b8;
+}
+
+/* ACTIVE */
+
+.primary-button:active {
+  transform: scale(0.98);
+}
+
+/* =========================================
+   SECONDARY BUTTON
+========================================= */
+
+.secondary-button {
+  min-height: 44px;
+
+  border-radius: var(--radius);
+
+  padding: 0 34px;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 150ms ease,
+    background 180ms ease;
+}
+
+/* DARK MODE */
+
+body.dark-mode
+  .secondary-button {
+  background: transparent;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.14);
+
+  color: #d4e4fa;
+}
+
+/* LIGHT MODE */
+
+body:not(.dark-mode)
+  .secondary-button {
+  background:
+    var(--surface-lowest);
+
+  border:
+    1px solid var(--border);
+
+  color: var(--text);
+}
+
+.secondary-button:hover {
+  background: var(--surface-low);
+}
+
+.secondary-button:active {
+  transform: scale(0.98);
+}
+
+/* =========================================
+   ICON BUTTON
+========================================= */
+
+.icon-button {
+  display: grid;
+
+  place-items: center;
+
+  width: 44px;
+
+  min-height: 44px;
+
+  border: none;
+
+  border-radius: var(--radius);
+
+  background: transparent;
+
+  color: var(--muted);
+
+  font-size: 20px;
+
+  cursor: pointer;
+
+  transition:
+    transform 150ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.icon-button:hover {
+  background: var(--surface-high);
+
+  color: var(--text);
+}
+
+.icon-button:active {
+  transform: scale(0.98);
+}
+
+/* =========================================
+   THEME TOGGLE
+========================================= */
+
+.theme-toggle {
+  width: 48px;
+
+  height: 48px;
+
+  border-radius: 999px;
+
+  border: none;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* DARK */
+
+body.dark-mode .theme-toggle {
+  background:
+    rgba(255, 255, 255, 0.05);
+
+  color: white;
+}
+
+/* LIGHT */
+
+body:not(.dark-mode)
+  .theme-toggle {
+  background:
+    rgba(15, 23, 42, 0.05);
+
+  color: #0f172a;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+}

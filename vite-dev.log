@@ -1,0 +1,684 @@
+
+> abroadly-study-abroad@1.0.0 dev
+> vite --host 127.0.0.1 --port 5173
+
+
+  [32m[1mVITE[22m v8.0.11[39m  [2mready in [0m[1m189[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m11:38:20 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_d234aeca' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps'[39m
+[2m11:46:10 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:46:16 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_69fb35eb'[39m
+[2m11:53:21 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m11:53:32 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m11:53:47 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mdist-check/index.html[22m
+[2m11:55:45 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m11:55:47 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m11:56:27 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:56:34 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_602a0946'[39m
+[2m11:57:22 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:57:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:57:28 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_ea1fbcf8'[39m
+[2m11:57:34 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:57:40 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:57:40 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_d74522bd'[39m
+[2m11:57:41 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:57:46 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_d41601e8'[39m
+[2m11:58:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:58:06 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_3e018c81'[39m
+[2m11:58:29 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m11:58:38 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_c854740a'[39m
+[2m11:59:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m11:59:39 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m12:04:46 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m12:04:49 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m12:04:54 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m12:04:55 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m12:13:00 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m12:13:01 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./App" from "src/main.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx[39m:3:16
+[33m  1  |  import React from "react";
+  2  |  import ReactDOM from "react-dom/client";
+  3  |  import App from "./App";
+     |                   ^
+  4  |  import "./styles.css";
+  5  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx";[39m
+[2m12:13:01 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./App" from "src/main.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx[39m:3:16
+[33m  1  |  import React from "react";
+  2  |  import ReactDOM from "react-dom/client";
+  3  |  import App from "./App";
+     |                   ^
+  4  |  import "./styles.css";
+  5  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx";[39m
+[2m12:13:01 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./App" from "src/main.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx[39m:3:16
+[33m  1  |  import React from "react";
+  2  |  import ReactDOM from "react-dom/client";
+  3  |  import App from "./App";
+     |                   ^
+  4  |  import "./styles.css";
+  5  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:13:01 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./App" from "src/main.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx[39m:3:16
+[33m  1  |  import React from "react";
+  2  |  import ReactDOM from "react-dom/client";
+  3  |  import App from "./App";
+     |                   ^
+  4  |  import "./styles.css";
+  5  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:13:07 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_6d7fa18e'[39m
+[2m12:13:53 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m12:13:59 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_20de339e'[39m
+[2m12:18:47 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m12:18:47 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Identifier `React` has already been declared
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:1:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m  1 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0mReact[38;5;249m,[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mS[0m[38;5;249mt[0m[38;5;249ma[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m    │[0m        ──┬──  
+ [38;5;240m    │[0m          ╰──── `React` has already been declared here
+ [38;5;240m    │[0m 
+ [38;5;246m321 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0mReact[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m    │[0m        ──┬──  
+ [38;5;240m    │[0m          ╰──── It can not be redeclared here
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx[39m
+[2m12:18:47 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Identifier `React` has already been declared
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:1:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m  1 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0mReact[38;5;249m,[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mS[0m[38;5;249mt[0m[38;5;249ma[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m    │[0m        ──┬──  
+ [38;5;240m    │[0m          ╰──── `React` has already been declared here
+ [38;5;240m    │[0m 
+ [38;5;246m321 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0mReact[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m    │[0m        ──┬──  
+ [38;5;240m    │[0m          ╰──── It can not be redeclared here
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx[39m
+[2m12:18:47 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Identifier `React` has already been declared
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:1:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m  1 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0mReact[38;5;249m,[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mS[0m[38;5;249mt[0m[38;5;249ma[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m    │[0m        ──┬──  
+ [38;5;240m    │[0m          ╰──── `React` has already been declared here
+ [38;5;240m    │[0m 
+ [38;5;246m321 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0mReact[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m    │[0m        ──┬──  
+ [38;5;240m    │[0m          ╰──── It can not be redeclared here
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:3340:19)
+      at TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:3408:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:51)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:18:47 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Identifier `React` has already been declared
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/main.jsx:1:8 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m  1 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0mReact[38;5;249m,[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0m[38;5;249mu[0m[38;5;249ms[0m[38;5;249me[0m[38;5;249mS[0m[38;5;249mt[0m[38;5;249ma[0m[38;5;249mt[0m[38;5;249me[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m    │[0m        ──┬──  
+ [38;5;240m    │[0m          ╰──── `React` has already been declared here
+ [38;5;240m    │[0m 
+ [38;5;246m321 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0mReact[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m    │[0m        ──┬──  
+ [38;5;240m    │[0m          ╰──── It can not be redeclared here
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/main.jsx[39m
+      at transformWithOxc (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:3340:19)
+      at TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:3408:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:51)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:18:52 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m12:18:52 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+[2m12:18:52 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:18:52 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:18:58 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_7d5c3f43'[39m
+[2m12:19:22 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:19:22 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+[2m12:19:22 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:19:22 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:19:28 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_29fd2177'[39m
+[2m12:19:56 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m12:19:57 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:19:57 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:20:03 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_fdf1f57e'[39m
+[2m12:20:07 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:20:07 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:20:07 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:20:13 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_4ad81949'[39m
+[2m12:20:20 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Stats.jsx[22m
+[2m12:20:20 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:20:20 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/Countries" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:4:22
+[33m  2  |  import Hero from "./components/Hero";
+  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+     |                         ^
+  5  |  import CallToAction from "./components/CallToAction";
+  6  |  import Footer from "./components/Footer";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:20:26 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_1ff84124'[39m
+[2m12:20:58 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/countries.jsx[22m
+[2m12:20:58 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+[2m12:21:00 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:21:00 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:21:04 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_59f7d5c3'[39m
+[2m12:21:29 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Call[22m
+[2m12:21:29 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+[2m12:21:29 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:21:29 am[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./components/CallToAction" from "src/App.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx[39m:5:25
+[33m  3  |  import Stats from "./components/Stats";
+  4  |  import Countries from "./components/Countries";
+  5  |  import CallToAction from "./components/CallToAction";
+     |                            ^
+  6  |  import Footer from "./components/Footer";
+  7  |  var _jsxFileName = "C:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/App.jsx";[39m
+      at TransformPluginContext._formatLog (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30390:39)
+      at TransformPluginContext.error (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30387:14)
+      at normalizeUrl (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27651:18)
+      at async file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27714:30
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:27682:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:30179:14)
+      at async loadAndTransform (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24509:26)
+      at async viteTransformMiddleware (file:///C:/Users/KEHLAWATT/OneDrive/Desktop/study%20abroad/node_modules/vite/dist/node/chunks/node.js:24303:20)
+[2m12:21:35 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_db45aa37'[39m
+[2m12:21:36 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CallToAction.jsx[22m
+[2m12:21:43 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_1ed38532'[39m
+[2m12:21:52 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Countries.jsx[22m
+[2m12:21:58 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_9a999d80'[39m
+[2m12:22:11 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CallToAction.jsx[22m
+[2m12:22:17 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_e04786c5'[39m
+[2m12:22:21 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Footer.jsx[22m
+[2m12:22:22 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated string
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/Footer.jsx:4:16 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m4 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249ms[0m[38;5;249m:[0m[38;5;249m [0m[38;5;249m[[0m"
+ [38;5;240m  │[0m                ┬  
+ [38;5;240m  │[0m                ╰── 
+[38;5;246m───╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/components/Footer.jsx[39m
+[2m12:22:35 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Footer.jsx[22m
+[2m12:22:35 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Unterminated string
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/Footer.jsx:4:16 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m4 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249ms[0m[38;5;249m:[0m[38;5;249m [0m[38;5;249m[[0m"]
+ [38;5;240m  │[0m                ─┬  
+ [38;5;240m  │[0m                 ╰── 
+[38;5;246m───╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/components/Footer.jsx[39m
+[2m12:22:44 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Footer.jsx[22m
+[2m12:22:44 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] Error:[0m Expected `}` but found `EOF`
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/components/Footer.jsx:4:17 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m4 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249mP[0m[38;5;249ma[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249mr[0m[38;5;249ms[0m[38;5;249m:[0m[38;5;249m [0m[38;5;249m[[0m[38;5;249m][0m
+ [38;5;240m  │[0m                 │ 
+ [38;5;240m  │[0m                 ╰─ `}` expected
+[38;5;246m───╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/KEHLAWATT/OneDrive/Desktop/study abroad/src/components/Footer.jsx[39m
+[2m12:22:59 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Footer.jsx[22m
+[2m12:23:59 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Footer.jsx[22m
+[2m12:24:05 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_40aedafe'[39m
+[2m12:28:17 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Countries.jsx[22m
+[2m12:28:23 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_af39e6af'[39m
+[2m12:28:50 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Countries.jsx[22m
+[2m12:28:56 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_68cb500e'[39m
+[2m12:31:19 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:33:52 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:34:19 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Stats.jsx[22m
+[2m12:34:24 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Stats.jsx[22m
+[2m12:34:25 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_16022c74'[39m
+[2m12:37:26 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:37:27 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:37:34 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:37:51 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Stats.jsx[22m
+[2m12:37:57 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_4adadef9'[39m
+[2m12:40:31 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:41:29 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:42:19 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:43:04 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m12:45:07 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m12:45:13 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_6da698ff'[39m
+[2m12:45:27 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:45:32 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:45:33 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_20bb100d'[39m
+[2m12:45:34 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:45:37 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:45:40 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_e0851187'[39m
+[2m12:45:40 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:45:43 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:45:45 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:45:47 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_5b5761a3'[39m
+[2m12:46:16 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:46:18 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:46:19 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m12:46:22 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_31a095d8'[39m
+[2m12:47:06 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Countries.jsx[22m
+[2m12:47:11 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Countries.jsx[22m
+[2m12:47:13 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_b385030d'[39m
+[2m12:47:16 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Countries.jsx[22m
+[2m12:47:18 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_1a103646'[39m
+[2m12:47:56 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Countries.jsx[22m
+[2m12:48:02 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_73278c76'[39m
+[2m1:16:55 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m1:17:09 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m1:18:29 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:31 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:32 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:46 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:50 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:53 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:55 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:56 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:57 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:18:58 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:22 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:26 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:27 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:29 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:31 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:34 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:35 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:41 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:44 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:47 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:49 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:53 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:56 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:19:58 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CountryCard.jsx[22m
+[2m1:20:18 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:21:17 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:21:22 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:22:10 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:22:16 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:22:17 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:22:19 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:22:21 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:22:22 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:22:25 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:22:46 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CallToAction.jsx[22m
+[2m1:22:47 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CallToAction.jsx[22m
+[2m1:23:11 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CallToAction.jsx[22m
+[2m1:23:26 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CallToAction.jsx[22m
+[2m1:24:08 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CallToAction.jsx[22m
+[2m1:25:09 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/CallToAction.jsx[22m
+[2m1:26:43 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Hero.jsx[22m
+[2m1:28:59 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Countries.jsx[22m
+[2m1:35:20 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m1:35:23 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m1:35:25 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/App.jsx[22m
+[2m1:35:44 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:35:46 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:35:48 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/Header.jsx[22m
+[2m1:36:21 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:36:24 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:36:28 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:37:34 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:44:03 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:44:36 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:44:41 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:50:08 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:50:23 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m1:50:27 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:05:34 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:18:51 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:18:57 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:21:15 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:22:15 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:22:18 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:25:21 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m2:25:40 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:29:29 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:29:54 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:29:55 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:30:02 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:30:20 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:30:21 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:33:37 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:33:40 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:34:40 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:35:08 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:35:28 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:37:17 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:37:30 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:37:33 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:37:47 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:37:54 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:43:08 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/data/data.js[22m
+[2m2:46:29 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:46:41 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:46:56 am[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m2:57:41 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps' -> 'C:\Users\KEHLAWATT\OneDrive\Desktop\study abroad\node_modules\.vite\deps_temp_0faac9b6'[39m

@@ -1,0 +1,291 @@
+/* =========================================
+   COUNTRY CARDS
+========================================= */
+
+.country-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 28px;
+
+  align-items: stretch;
+}
+
+.country-card {
+  width: 100%;
+
+  height: 560px;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  background: rgba(15, 23, 42, 0.72);
+
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.28);
+
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.country-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.country-image-wrapper {
+  position: relative;
+
+  width: 100%;
+
+  height: 240px;
+
+  overflow: hidden;
+
+  flex-shrink: 0;
+
+  border-radius: 24px 24px 0 0;
+}
+
+.country-image {
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  transition:
+    transform 0.7s ease,
+    filter 0.4s ease;
+
+  filter: brightness(0.9);
+}
+
+.country-card:hover .country-image {
+  transform: scale(1.08);
+
+  filter: brightness(1);
+}
+
+/* =========================================
+   OVERLAY
+========================================= */
+
+.country-image-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.08),
+      transparent
+    );
+}
+
+/* =========================================
+   IMAGE CONTENT
+========================================= */
+
+.country-image-content {
+  position: absolute;
+
+  left: 24px;
+  bottom: 24px;
+
+  z-index: 2;
+
+  color: white;
+}
+
+.country-flag {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 52px;
+  height: 52px;
+
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  font-size: 1.5rem;
+
+  margin-bottom: 16px;
+}
+
+.country-image-content h3 {
+  font-size: 1rem;
+
+  font-weight: 700;
+
+  margin-bottom: 0%;
+}
+
+.country-image-content p {
+  color: rgba(255, 255, 255, 0.78);
+
+  font-size: 0.92rem;
+}
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.country-content {
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 0px;
+
+  flex: 1;
+}
+
+.country-tagline {
+  color: rgba(255, 255, 255, 0.75);
+
+  line-height: 1.7;
+}
+
+/* =========================================
+   TAGS / HIGHLIGHTS
+========================================= */
+
+.country-highlights {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin: 8px 0 1px;
+}
+
+.country-highlights span {
+  padding: 6px 10px;
+
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  color: #dbeafe;
+
+  font-size: 0.68rem;
+
+  font-weight: 500;
+
+  letter-spacing: 0.2px;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.country-card .primary-button {
+  margin-top: auto;
+}
+
+/* =========================================
+   LIGHT MODE
+========================================= */
+
+body:not(.dark-mode) .country-card {
+  background: #ffffff;
+
+  border: 1px solid rgba(15, 23, 42, 0.06);
+
+  box-shadow:
+    0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+body:not(.dark-mode) .country-image-overlay {
+  background:
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.04),
+      transparent
+    );
+}
+
+body:not(.dark-mode) .country-image {
+  filter: brightness(0.92);
+}
+
+body:not(.dark-mode) .country-image-content h3 {
+  color: #0f172a;
+}
+
+body:not(.dark-mode) .country-image-content p {
+  color: rgba(15, 23, 42, 0.72);
+}
+
+body:not(.dark-mode) .country-flag {
+  background: rgba(255, 255, 255, 0.82);
+
+  border: 1px solid rgba(15, 23, 42, 0.08);
+
+  color: #0f172a;
+
+  box-shadow:
+    0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+body:not(.dark-mode) .country-highlights span {
+  background: rgba(15, 23, 42, 0.04);
+
+  border: 1px solid rgba(15, 23, 42, 0.05);
+
+  color: #0f172a;
+}
+
+body:not(.dark-mode) .country-tagline {
+  color: rgba(15, 23, 42, 0.75);
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 560px) {
+  .country-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .country-card {
+    height: auto;
+  }
+}

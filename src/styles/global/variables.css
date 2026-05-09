@@ -1,0 +1,33 @@
+:root {
+  --surface: #f8f9ff;
+  --surface-lowest: #ffffff;
+  --surface-low: #eff4ff;
+  --surface-container: #e5eeff;
+  --surface-high: #dce9ff;
+
+  --text: #0b1c30;
+  --muted: #45464d;
+  --muted-soft: #76777d;
+
+  --border: #dfe5f0;
+
+  --primary: #131b2e;
+
+  --action: #0051d5;
+  --action-hover: #0044b8;
+
+  --on-dark-muted: #aeb6c8;
+
+  --shadow:
+    0 10px 30px
+    rgba(15, 23, 42, 0.06);
+
+  --radius: 8px;
+  --radius-lg: 12px;
+
+  --shell:
+    min(
+      100% - max(48px, 10vw),
+      1280px
+    );
+}

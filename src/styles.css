@@ -1,0 +1,29 @@
+@import "./styles/global/reset.css";
+@import "./styles/global/variables.css";
+@import "./styles/global/base.css";
+
+@import "./styles/layout/header.css";
+@import "./styles/layout/footer.css";
+
+@import "./styles/themes/dark-mode.css";
+@import "./styles/themes/light-mode.css";
+
+@import "./styles/components/hero.css";
+@import "./styles/components/countries.css";
+@import "./styles/components/universities.css";
+@import "./styles/components/cities.css";
+@import "./styles/components/country-card.css";
+@import "./styles/components/compare.css";
+@import "./styles/components/cta.css";
+@import "./styles/components/components.css";
+
+@import "./styles/pages/country-details.css";
+@import "./styles/pages/university-details.css";
+
+/* HIDE SCROLLBAR */
+
+/* CHROME, EDGE, SAFARI */
+
+::-webkit-scrollbar {
+  display: none;
+}

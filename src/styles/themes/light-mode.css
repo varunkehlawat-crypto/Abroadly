@@ -1,0 +1,317 @@
+/* =========================================
+   PREMIUM LIGHT MODE
+========================================= */
+
+body:not(.dark-mode) {
+  --surface: #f5f7fb;
+  --surface-secondary: #eef3ff;
+
+  --surface-card: rgba(255, 255, 255, 0.92);
+
+  --border-light: rgba(15, 23, 42, 0.06);
+
+  --text-primary: #081120;
+  --text-secondary: #5b6472;
+
+  --primary-blue: #316bf3;
+  --primary-blue-light: #dbe7ff;
+
+  background: var(--surface);
+  color: var(--text-primary);
+}
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+body:not(.dark-mode) .premium-home-header,
+body:not(.dark-mode) .country-topbar {
+  background: rgba(255, 255, 255, 0.78);
+
+  border-bottom: 1px solid rgba(15, 23, 42, 0.05);
+
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+}
+
+/* =========================================
+   PAGE
+========================================= */
+
+body:not(.dark-mode) .country-page {
+  background: #f5f7fb;
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+body:not(.dark-mode) .country-hero {
+  background: #f5f7fb;
+}
+
+body:not(.dark-mode) .hero-overlay {
+  background:
+    linear-gradient(
+      to right,
+      rgba(255,255,255,0.48),
+      rgba(255,255,255,0.08)
+    ),
+
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.02),
+      rgba(255,255,255,0.82)
+    );
+}
+
+body:not(.dark-mode) .country-hero::after {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0),
+      rgba(255,255,255,0.92)
+    );
+}
+
+body:not(.dark-mode) .hero-text h1 {
+  color: #081120;
+}
+
+body:not(.dark-mode) .hero-text p {
+  color: #5b6472;
+}
+
+body:not(.dark-mode) .hero-badge {
+  background: rgba(49, 107, 243, 0.1);
+
+  color: #316bf3;
+}
+
+/* =========================================
+   STATS
+========================================= */
+
+body:not(.dark-mode) .premium-stats-bar {
+  background: rgba(255,255,255,0.95);
+
+  border: 1px solid rgba(15,23,42,0.06);
+
+  box-shadow:
+    0 18px 50px rgba(15,23,42,0.08);
+}
+
+body:not(.dark-mode) .premium-stat-content h3 {
+  color: #081120;
+}
+
+body:not(.dark-mode) .premium-stat-content p {
+  color: #6b7280;
+}
+
+/* REMOVE DARK ICON BOXES */
+
+body:not(.dark-mode) .premium-stat-icon {
+  background: transparent !important;
+
+  border: none !important;
+
+  box-shadow: none !important;
+}
+
+/* =========================================
+   SECTION TEXT
+========================================= */
+
+body:not(.dark-mode) .section-header h2,
+body:not(.dark-mode) .cities-header h2,
+body:not(.dark-mode) .countries-section h2 {
+  color: #081120;
+}
+
+body:not(.dark-mode) .section-header p,
+body:not(.dark-mode) .cities-header p,
+body:not(.dark-mode) .countries-section p {
+  color: #5b6472;
+}
+
+/* =========================================
+   CITY CARDS
+========================================= */
+
+body:not(.dark-mode) .premium-city-card,
+body:not(.dark-mode) .city-card {
+  background: white;
+
+  border: 1px solid rgba(15,23,42,0.06);
+
+  box-shadow:
+    0 14px 34px rgba(15,23,42,0.08);
+}
+
+/* FIX DARK IMAGES */
+
+body:not(.dark-mode) .city-overlay,
+body:not(.dark-mode) .university-overlay {
+  background:
+    linear-gradient(
+      to top,
+      rgba(0,0,0,0.32),
+      rgba(0,0,0,0.06),
+      transparent
+    );
+}
+
+body:not(.dark-mode) .premium-city-card img,
+body:not(.dark-mode) .city-card img,
+body:not(.dark-mode) .university-card img,
+body:not(.dark-mode) .country-university-card img {
+  filter: brightness(1.02) contrast(1.02);
+
+  opacity: 1;
+}
+
+/* =========================================
+   UNIVERSITY CARDS
+========================================= */
+
+body:not(.dark-mode) .country-university-card,
+body:not(.dark-mode) .university-card {
+  background: white;
+
+  border: 1px solid rgba(15,23,42,0.06);
+
+  box-shadow:
+    0 12px 30px rgba(15,23,42,0.06);
+}
+
+body:not(.dark-mode) .country-university-top h3,
+body:not(.dark-mode) .university-card h3 {
+  color: #081120;
+}
+
+body:not(.dark-mode) .country-university-content p,
+body:not(.dark-mode) .university-content p {
+  color: #5b6472;
+}
+
+/* TAGS */
+
+body:not(.dark-mode) .tag-row span,
+body:not(.dark-mode) .country-university-tags span,
+body:not(.dark-mode) .university-tags span {
+  background: #eef3ff;
+
+  border: 1px solid rgba(15,23,42,0.04);
+
+  color: #316bf3;
+}
+
+/* =========================================
+   CTA
+========================================= */
+
+body:not(.dark-mode) .country-cta-card {
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(59,130,246,0.08),
+      transparent 30%
+    ),
+
+    linear-gradient(
+      180deg,
+      #ffffff,
+      #f8fbff
+    );
+
+  border: 1px solid rgba(15,23,42,0.05);
+
+  box-shadow:
+    0 20px 50px rgba(15,23,42,0.05);
+}
+
+body:not(.dark-mode) .country-cta-card h2 {
+  color: #081120;
+}
+
+body:not(.dark-mode) .country-cta-card p {
+  color: #5b6472;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+body:not(.dark-mode) .journey-button,
+body:not(.dark-mode) .primary-button {
+  background:
+    linear-gradient(
+      135deg,
+      #316bf3,
+      #5f8fff
+    );
+
+  color: white;
+}
+
+body:not(.dark-mode) .secondary-button {
+  background: white;
+
+  border: 1px solid rgba(15,23,42,0.08);
+
+  color: #081120;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+body:not(.dark-mode) .site-footer {
+  background: #ffffff;
+
+  border-top: 1px solid rgba(15,23,42,0.06);
+}
+
+body:not(.dark-mode) .footer-brand p,
+body:not(.dark-mode) .footer-columns a,
+body:not(.dark-mode) .footer-bottom p {
+  color: #5b6472;
+}
+
+body:not(.dark-mode) .footer-columns h3 {
+  color: #081120;
+}
+
+/* =========================================
+   THEME TOGGLE
+========================================= */
+
+body:not(.dark-mode) .theme-toggle {
+  background: rgba(15,23,42,0.05);
+
+  color: #081120;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+}
+/* LIGHT MODE */
+
+body:not(.dark-mode) .wishlist-nav {
+  background: rgba(15, 23, 42, 0.04);
+
+  border: 1px solid rgba(15, 23, 42, 0.08);
+
+  color: #0f172a;
+}
+
+body:not(.dark-mode) .wishlist-nav:hover {
+  background: rgba(15, 23, 42, 0.08);
+}
+
+body:not(.dark-mode) .wishlist-count {
+  background: #ff4d6d;
+
+  color: white;
+}

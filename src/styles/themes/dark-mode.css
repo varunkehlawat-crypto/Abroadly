@@ -1,0 +1,216 @@
+/* =========================================
+   PREMIUM DARK MODE
+========================================= */
+
+body.dark-mode {
+  --surface: #051424;
+  --surface-lowest: #010f1f;
+  --surface-low: #0d1c2d;
+  --surface-container: #122131;
+  --surface-high: #1c2b3c;
+
+  --text: #d4e4fa;
+  --muted: #b8c4d9;
+  --muted-soft: #8ea2c2;
+
+  --border: #424754;
+
+  --primary: #122131;
+
+  --action: #4d8eff;
+  --action-hover: #6aa2ff;
+
+  --on-dark-muted: #9fb0c7;
+
+  --shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(77, 142, 255, 0.14),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(0, 162, 230, 0.08),
+      transparent 30%
+    ),
+    #051424;
+
+  color: var(--text);
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+body.dark-mode .site-header {
+  background: rgba(18, 33, 49, 0.92);
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.06);
+
+  -webkit-backdrop-filter: blur(20px);
+
+  backdrop-filter: blur(20px);
+}
+
+/* =========================================
+   HERO
+========================================= */
+
+body.dark-mode .hero {
+  background: transparent;
+}
+
+body.dark-mode .hero::after {
+  opacity: 0.02;
+}
+
+body.dark-mode .hero h1 {
+  color: #edf4ff;
+}
+
+body.dark-mode .hero h1 span {
+  color: #4d8eff;
+}
+
+body.dark-mode .hero p {
+  color: #9fb0c7;
+}
+
+/* =========================================
+   SEARCH PANEL
+========================================= */
+
+body.dark-mode .search-panel {
+  background: #122131;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.08);
+
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+body.dark-mode .field {
+  background: #0d1c2d;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.06);
+
+  color: #8ea2c2;
+}
+
+body.dark-mode .field input,
+body.dark-mode .field select {
+  color: #d4e4fa;
+}
+
+body.dark-mode .field input::placeholder {
+  color: #7f94b5;
+}
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+body.dark-mode .primary-button {
+  background:
+    linear-gradient(
+      135deg,
+      #4d8eff,
+      #367cff
+    );
+
+  color: white;
+
+  border: none;
+}
+
+body.dark-mode .primary-button:hover {
+  background:
+    linear-gradient(
+      135deg,
+      #66a0ff,
+      #4d8eff
+    );
+}
+
+body.dark-mode .secondary-button {
+  background: transparent;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.14);
+
+  color: #d4e4fa;
+}
+
+/* =========================================
+   STATS
+========================================= */
+
+body.dark-mode .stats-band {
+  background: #010f1f;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.05);
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .stat-card {
+  background: transparent;
+
+  border: none;
+
+  box-shadow: none;
+}
+
+/* =========================================
+   SEGMENTED FILTER
+========================================= */
+
+body.dark-mode .segmented {
+  background:
+    rgba(255, 255, 255, 0.04);
+}
+
+body.dark-mode .segmented .selected {
+  background:
+    rgba(77, 142, 255, 0.18);
+
+  color: #edf4ff;
+}
+
+/* =========================================
+   VIEW ALL
+========================================= */
+
+body.dark-mode .view-all button {
+  color: #6ea5ff;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+body.dark-mode .site-footer {
+  background: #010f1f;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* =========================================
+   LINKS
+========================================= */
+
+body.dark-mode .nav-links a:hover,
+body.dark-mode .nav-links a.active,
+body.dark-mode .footer-columns a:hover,
+body.dark-mode .social-links a:hover {
+  color: #6ea5ff;
+}

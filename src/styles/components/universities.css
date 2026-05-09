@@ -1,0 +1,470 @@
+/* =========================================
+   UNIVERSITIES PAGE
+========================================= */
+
+.universities-page {
+  padding-top: 140px;
+
+  padding-bottom: 100px;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.universities-header {
+  margin-bottom: 60px;
+
+  text-align: center;
+}
+
+.universities-header h1 {
+  font-size: 3rem;
+
+  margin-bottom: 16px;
+}
+
+.universities-header p {
+  color: var(--text-secondary);
+
+  max-width: 700px;
+
+  margin: 0 auto;
+}
+
+/* =========================================
+   UNIVERSITIES GRID
+========================================= */
+
+.universities-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(380px, 380px)
+    );
+
+  justify-content: center;
+
+  gap: 32px;
+}
+
+/* =========================================
+   UNIVERSITY CARD
+========================================= */
+
+.university-card {
+  width: 100%;
+
+  max-width: 380px;
+
+  overflow: hidden;
+
+  border-radius: 28px;
+
+  background:
+    rgba(15, 23, 42, 0.82);
+
+  border:
+    1px solid rgba(
+      255,
+      255,
+      255,
+      0.06
+    );
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.university-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 20px 40px
+      rgba(0, 0, 0, 0.28);
+}
+.wishlist-button {
+  position: absolute;
+
+  top: 18px;
+  right: 18px;
+
+  width: 52px;
+  height: 52px;
+
+  border-radius: 16px;
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+  background: rgba(15,23,42,0.45);
+
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  z-index: 5;
+
+  transition: 0.3s ease;
+}
+
+.wishlist-button:hover {
+  transform: scale(1.08);
+
+  background: rgba(255,255,255,0.12);
+}
+
+.wishlist-button .material-symbols-outlined {
+  font-size: 28px;
+
+  color: white;
+
+  transition: 0.3s ease;
+}
+
+.wishlist-button.saved .material-symbols-outlined {
+  color: #ff3c3c;
+
+  font-variation-settings:
+    "FILL" 1;
+}
+
+
+/* =========================================
+   IMAGE WRAPPER
+========================================= */
+
+.university-image-wrapper {
+  position: relative;
+
+  width: 100%;
+
+  height: 260px;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+}
+
+.university-image {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  display: block;
+
+  transition:
+    transform 0.6s ease;
+}
+
+.university-card:hover
+  .university-image {
+  transform: scale(1.06);
+}
+
+.university-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.45),
+      transparent
+    );
+}
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.university-content {
+  padding: 24px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+
+  flex: 1;
+}
+
+.university-country {
+  font-size: 0.9rem;
+
+  color:
+    var(--text-secondary);
+}
+
+.university-rank {
+  color: #60a5fa;
+
+  font-weight: 600;
+}
+
+.university-description {
+  color:
+    var(--text-secondary);
+
+  line-height: 1.7;
+}
+
+/* =========================================
+   TAGS
+========================================= */
+
+.university-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 8px;
+}
+
+.university-tags span {
+  padding: 8px 14px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.06);
+
+  font-size: 0.8rem;
+}
+
+/* =========================================
+   LIGHT MODE
+========================================= */
+
+body:not(.dark-mode)
+  .university-card {
+  background: white;
+
+  border:
+    1px solid
+    rgba(15, 23, 42, 0.08);
+}
+
+body:not(.dark-mode)
+  .university-tags span {
+  background:
+    rgba(15, 23, 42, 0.05);
+}
+
+/* =========================================
+   GLOBAL UNIVERSITIES PAGE
+========================================= */
+
+.global-universities-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(340px, 340px)
+    );
+
+  justify-content: center;
+
+  gap: 32px;
+}
+
+/* =========================================
+   GLOBAL CARD
+========================================= */
+
+.global-university-card {
+  width: 100%;
+
+  max-width: 340px;
+
+  overflow: hidden;
+
+  border-radius: 28px;
+
+  background:
+    rgba(15, 23, 42, 0.82);
+
+  border:
+    1px solid
+    rgba(255,255,255,0.06);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.global-university-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 20px 40px
+      rgba(0,0,0,0.28);
+}
+
+/* =========================================
+   GLOBAL IMAGE
+========================================= */
+
+.global-university-image-wrapper {
+  position: relative;
+
+  width: 100%;
+
+  height: 240px;
+
+  overflow: hidden;
+}
+
+.global-university-image {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  object-position: center;
+
+  transition:
+    transform 0.6s ease;
+
+  display: block;
+}
+
+.global-university-card:hover
+.global-university-image {
+  transform: scale(1.06);
+}
+
+.global-university-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0,0,0,0.45),
+      transparent
+    );
+}
+
+/* =========================================
+   GLOBAL CONTENT
+========================================= */
+
+.global-university-content {
+  padding: 22px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.global-university-country {
+  font-size: 0.9rem;
+
+  color:
+    var(--text-secondary);
+}
+
+.global-university-rank {
+  color: #60a5fa;
+
+  font-weight: 600;
+}
+
+.global-university-description {
+  color:
+    var(--text-secondary);
+
+  line-height: 1.7;
+}
+
+/* =========================================
+   GLOBAL TAGS
+========================================= */
+
+.global-university-tags {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.global-university-tags span {
+  padding: 8px 12px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255,255,255,0.05);
+
+  border:
+    1px solid
+    rgba(255,255,255,0.06);
+
+  font-size: 0.78rem;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+  .universities-grid,
+  .global-universities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .universities-header h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .universities-page {
+    padding-top: 120px;
+
+    padding-bottom: 70px;
+  }
+
+  .university-image-wrapper {
+    height: 220px;
+  }
+
+  .global-university-image-wrapper {
+    height: 220px;
+  }
+
+  .university-content,
+  .global-university-content {
+    padding: 20px;
+  }
+}

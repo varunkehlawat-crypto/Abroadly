@@ -1,0 +1,208 @@
+/* =========================================
+   FOOTER
+========================================= */
+
+.site-footer {
+  background: var(--surface-lowest);
+
+  border-top:
+    1px solid var(--border);
+}
+
+/* =========================================
+   FOOTER TOP
+========================================= */
+
+.footer-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 64px;
+
+  padding: 80px 0;
+}
+
+/* =========================================
+   BRAND
+========================================= */
+
+.footer-brand {
+  max-width: 340px;
+}
+
+.footer-brand p,
+.footer-bottom p {
+  color: var(--muted);
+
+  line-height: 1.55;
+}
+
+/* =========================================
+   SOCIAL LINKS
+========================================= */
+
+.social-links {
+  display: flex;
+
+  gap: 22px;
+}
+
+.social-links a {
+  color: var(--text);
+
+  font-size: 20px;
+
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.social-links a:hover {
+  color: var(--action);
+
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   FOOTER COLUMNS
+========================================= */
+
+.footer-columns {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(150px, 1fr));
+
+  gap: 64px;
+}
+
+.footer-columns h3 {
+  margin: 0 0 22px;
+
+  font-size: 13px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+.footer-columns a {
+  display: block;
+
+  margin: 0 0 16px;
+
+  color: var(--muted);
+
+  font-size: 14px;
+
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.footer-columns a:hover {
+  color: var(--action);
+
+  transform: translateX(2px);
+}
+
+/* =========================================
+   FOOTER BOTTOM
+========================================= */
+
+.footer-bottom {
+  padding: 32px 0;
+
+  border-top:
+    1px solid rgba(198, 198, 205, 0.35);
+}
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+body.dark-mode .site-footer {
+  background: #010f1f;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.06);
+}
+
+body.dark-mode .footer-brand p,
+body.dark-mode .footer-bottom p {
+  color: #9fb0c7;
+}
+
+body.dark-mode .footer-columns a {
+  color: #b8c4d9;
+}
+
+body.dark-mode .footer-columns a:hover,
+body.dark-mode .social-links a:hover {
+  color: #6ea5ff;
+}
+
+/* =========================================
+   LIGHT MODE
+========================================= */
+
+body:not(.dark-mode) .site-footer {
+  background: #ffffff;
+
+  border-top:
+    1px solid rgba(15, 23, 42, 0.06);
+}
+
+body:not(.dark-mode) .footer-columns a {
+  color: #5b6472;
+}
+
+body:not(.dark-mode) .footer-columns a:hover {
+  color: #316bf3;
+}
+
+body:not(.dark-mode) .social-links a {
+  color: #0f172a;
+}
+
+body:not(.dark-mode) .social-links a:hover {
+  color: #316bf3;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 880px) {
+  .footer-top {
+    align-items: start;
+
+    flex-direction: column;
+  }
+
+  .footer-columns {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 32px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer-top {
+    gap: 36px;
+
+    padding: 56px 0;
+  }
+
+  .footer-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    padding: 24px 0;
+  }
+}

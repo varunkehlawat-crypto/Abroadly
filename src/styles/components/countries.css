@@ -1,0 +1,594 @@
+/* =========================================
+   COUNTRIES SECTION
+========================================= */
+
+.countries-section {
+  padding: 80px 0;
+}
+
+/* =========================================
+   SECTION HEADER
+========================================= */
+
+.section-heading {
+  display: flex;
+
+  align-items: end;
+
+  justify-content: space-between;
+
+  gap: 24px;
+
+  margin-bottom: 48px;
+}
+
+.section-heading h2 {
+  margin: 0 0 8px;
+
+  font-family:
+    "Plus Jakarta Sans",
+    system-ui,
+    sans-serif;
+
+  font-size:
+    clamp(30px, 4vw, 40px);
+
+  line-height: 1.2;
+
+  letter-spacing: 0;
+}
+
+.section-heading p {
+  margin: 0;
+
+  color: var(--muted);
+
+  font-size: 16px;
+
+  line-height: 1.5;
+}
+
+/* =========================================
+   FILTER CONTROL
+========================================= */
+
+.filter-control {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  color: var(--muted);
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+.segmented {
+  display: flex;
+
+  padding: 4px;
+
+  background: var(--surface-low);
+
+  border-radius: var(--radius);
+}
+
+.segmented button {
+  min-height: 32px;
+
+  border: 0;
+
+  border-radius: 6px;
+
+  padding: 0 14px;
+
+  background: transparent;
+
+  color: var(--muted);
+
+  font-size: 14px;
+
+  font-weight: 600;
+}
+
+.segmented .selected {
+  background: var(--surface-lowest);
+
+  color: var(--text);
+
+  box-shadow:
+    0 4px 12px rgba(15, 23, 42, 0.07);
+}
+
+/* =========================================
+   COUNTRY GRID
+========================================= */
+
+.country-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(260px, 1fr)
+    );
+
+  gap: 28px;
+
+  justify-content: center;
+}
+
+/* =========================================
+   COUNTRY CARD
+========================================= */
+
+.country-card {
+  width: 100%;
+
+  max-width: 310px;
+
+  height: 560px;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  background:
+    rgba(15, 23, 42, 0.72);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.06);
+
+  -webkit-backdrop-filter: blur(20px);
+
+  backdrop-filter: blur(20px);
+
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.28);
+
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.country-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* =========================================
+   IMAGE WRAPPER
+========================================= */
+
+.country-image-wrapper {
+  position: relative;
+
+  height: 220px;
+
+  overflow: hidden;
+
+  border-radius: 24px 24px 0 0;
+}
+
+.country-image {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  object-position: center center;
+
+  display: block;
+
+  transition:
+    transform 0.7s ease,
+    filter 0.4s ease;
+
+  filter: brightness(0.9);
+}
+
+.country-card:hover .country-image {
+  transform: scale(1.08);
+
+  filter: brightness(1);
+}
+
+.country-image-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.08),
+      transparent
+    );
+}
+
+.country-image-content {
+  position: absolute;
+
+  left: 24px;
+
+  bottom: 24px;
+
+  z-index: 2;
+
+  color: white;
+}
+
+.country-image-content h3 {
+  font-size: 1.8rem;
+
+  font-weight: 700;
+
+  margin-bottom: 6px;
+}
+
+.country-image-content p {
+  color:
+    rgba(255, 255, 255, 0.78);
+
+  font-size: 0.92rem;
+}
+
+/* =========================================
+   FLAG
+========================================= */
+
+.country-flag {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  width: 52px;
+
+  height: 52px;
+
+  border-radius: 16px;
+
+  background:
+    rgba(255, 255, 255, 0.12);
+
+  -webkit-backdrop-filter: blur(14px);
+
+  backdrop-filter: blur(14px);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.15);
+
+  font-size: 1.5rem;
+
+  margin-bottom: 16px;
+}
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.country-content {
+  padding: 18px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+
+  flex: 1;
+}
+
+.country-tagline {
+  color:
+    rgba(255, 255, 255, 0.75);
+
+  line-height: 1.6;
+
+  font-size: 14px;
+}
+
+/* =========================================
+   HIGHLIGHTS
+========================================= */
+
+.country-highlights {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin: 10px 0 12px;
+}
+
+.country-highlights span {
+  padding: 8px 12px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.05);
+
+  border:
+    1px solid rgba(255, 255, 255, 0.06);
+
+  color: #dbeafe;
+
+  font-size: 0.72rem;
+
+  font-weight: 500;
+
+  letter-spacing: 0.2px;
+}
+
+/* =========================================
+   FEATURES
+========================================= */
+
+.country-content ul {
+  display: grid;
+
+  gap: 13px;
+
+  margin: 0 0 20px;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.country-content li {
+  display: grid;
+
+  grid-template-columns:
+    18px minmax(0, 1fr);
+
+  gap: 9px;
+
+  color: var(--muted);
+
+  font-size: 14px;
+
+  line-height: 1.45;
+}
+
+.country-content li span {
+  color: var(--action);
+
+  font-size: 14px;
+
+  font-weight: 700;
+}
+
+.country-content li p {
+  margin: 0;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.country-card .primary-button {
+  margin-top: auto;
+}
+
+/* =========================================
+   VIEW ALL
+========================================= */
+
+.view-all {
+  margin-top: 48px;
+
+  text-align: center;
+}
+
+.view-all button {
+  border: 0;
+
+  background: transparent;
+
+  color: var(--action);
+
+  font-weight: 700;
+}
+
+.view-all button:hover {
+  text-decoration: underline;
+}
+
+/* =========================================
+   LIGHT MODE
+========================================= */
+
+body:not(.dark-mode) .country-card {
+  background: #ffffff;
+
+  border:
+    1px solid rgba(15, 23, 42, 0.06);
+
+  box-shadow:
+    0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+body:not(.dark-mode)
+  .country-image-overlay {
+  background:
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.04),
+      transparent
+    );
+}
+
+body:not(.dark-mode)
+  .country-image {
+  filter: brightness(0.92);
+}
+
+body:not(.dark-mode)
+  .country-image-content h3 {
+  color: #0f172a;
+}
+
+body:not(.dark-mode)
+  .country-image-content p {
+  color:
+    rgba(15, 23, 42, 0.72);
+}
+
+body:not(.dark-mode)
+  .country-flag {
+  background:
+    rgba(255, 255, 255, 0.82);
+
+  border:
+    1px solid rgba(15, 23, 42, 0.08);
+
+  color: #0f172a;
+
+  box-shadow:
+    0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+body:not(.dark-mode)
+  .country-highlights span {
+  background:
+    rgba(15, 23, 42, 0.04);
+
+  border:
+    1px solid rgba(15, 23, 42, 0.05);
+
+  color: #0f172a;
+}
+
+body:not(.dark-mode)
+  .country-tagline {
+  color:
+    rgba(15, 23, 42, 0.75);
+}
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+body.dark-mode .country-card {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(18, 33, 49, 0.96),
+      rgba(13, 28, 45, 0.96)
+    );
+
+  border:
+    1px solid rgba(255, 255, 255, 0.08);
+}
+
+body.dark-mode .country-card:hover {
+  box-shadow:
+    0 18px 44px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(77, 142, 255, 0.12);
+}
+
+body.dark-mode .country-image-wrapper::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(5, 20, 36, 0.95),
+      transparent 50%
+    );
+
+  pointer-events: none;
+}
+
+body.dark-mode .country-content h3 {
+  color: #edf4ff;
+}
+
+body.dark-mode .country-content li {
+  color: #a9bbd5;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 880px) {
+  .section-heading {
+    align-items: start;
+
+    flex-direction: column;
+
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 560px) {
+  .countries-section {
+    padding: 56px 0;
+  }
+
+  .country-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .country-image-wrapper {
+    height: auto;
+
+    aspect-ratio: 16 / 9;
+  }
+
+  .filter-control {
+    width: 100%;
+
+    align-items: start;
+
+    flex-direction: column;
+  }
+
+  .segmented,
+  .segmented button {
+    width: 100%;
+  }
+}
+/* EMPTY SEARCH */
+
+.empty-state {
+  width: 100%;
+
+  text-align: center;
+
+  padding: 80px 20px;
+}
+
+.empty-state h2 {
+  font-size: 36px;
+
+  margin-bottom: 12px;
+}
+
+.empty-state p {
+  color: var(--muted);
+}

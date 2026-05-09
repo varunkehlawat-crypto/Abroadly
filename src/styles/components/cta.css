@@ -1,0 +1,269 @@
+/* =========================================
+   CTA SECTION
+========================================= */
+
+.cta-section {
+  padding-bottom: 80px;
+}
+
+/* =========================================
+   CTA CARD
+========================================= */
+
+.cta-card {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr) auto;
+
+  align-items: center;
+
+  gap: 32px;
+
+  min-height: 214px;
+
+  padding: 48px 80px;
+
+  overflow: hidden;
+
+  border-radius: var(--radius-lg);
+
+  background: var(--primary);
+
+  color: #ffffff;
+}
+
+.cta-card h2 {
+  margin: 0 0 8px;
+
+  font-family:
+    "Plus Jakarta Sans",
+    system-ui,
+    sans-serif;
+
+  font-size:
+    clamp(30px, 4vw, 40px);
+
+  line-height: 1.2;
+
+  letter-spacing: 0;
+}
+
+.cta-card p {
+  max-width: 690px;
+
+  margin: 0;
+
+  color: var(--on-dark-muted);
+
+  font-size: 16px;
+
+  line-height: 1.6;
+}
+
+/* =========================================
+   CTA ACTIONS
+========================================= */
+
+.cta-actions {
+  display: flex;
+
+  gap: 16px;
+}
+
+/* =========================================
+   SECONDARY BUTTON
+========================================= */
+
+.secondary-button {
+  background: var(--surface-lowest);
+
+  border: 1px solid var(--border);
+
+  color: var(--text);
+
+  padding: 0 34px;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  border-radius: var(--radius);
+
+  min-height: 44px;
+
+  transition:
+    transform 150ms ease,
+    background 180ms ease;
+}
+
+.secondary-button:hover {
+  background: var(--surface-low);
+}
+
+.secondary-button:active {
+  transform: scale(0.98);
+}
+
+/* =========================================
+   GLOBE MARK
+========================================= */
+
+.globe-mark {
+  position: absolute;
+
+  right: -54px;
+
+  top: -34px;
+
+  width: 310px;
+
+  aspect-ratio: 1;
+
+  opacity: 0.11;
+
+  border: 42px solid #ffffff;
+
+  border-radius: 50%;
+}
+
+.globe-mark::before,
+.globe-mark::after {
+  content: "";
+
+  position: absolute;
+
+  inset:
+    50% auto auto 50%;
+
+  width: 210px;
+
+  height: 42px;
+
+  background: #ffffff;
+
+  transform:
+    translate(-50%, -50%);
+}
+
+.globe-mark::after {
+  width: 42px;
+
+  height: 210px;
+}
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+body.dark-mode .cta-card {
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(77, 142, 255, 0.12),
+      transparent 30%
+    ),
+
+    linear-gradient(
+      180deg,
+      #1c2b3c,
+      #122131
+    );
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+
+  overflow: hidden;
+}
+
+body.dark-mode .secondary-button {
+  background: transparent;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.14);
+
+  color: #d4e4fa;
+}
+
+/* =========================================
+   LIGHT MODE
+========================================= */
+
+body:not(.dark-mode)
+  .cta-card {
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(49, 107, 243, 0.12),
+      transparent 30%
+    ),
+
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.96),
+      rgba(239, 244, 255, 0.96)
+    );
+}
+
+body:not(.dark-mode)
+  .cta-card h2 {
+  color: #0b1c30;
+}
+
+body:not(.dark-mode)
+  .cta-card p {
+  color: #5b6472;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 880px) {
+  .cta-card {
+    grid-template-columns: 1fr;
+
+    padding: 36px 28px;
+  }
+
+  .cta-actions {
+    width: 100%;
+
+    flex-wrap: wrap;
+  }
+
+  .cta-actions button {
+    flex: 1 1 180px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cta-section {
+    padding-bottom: 56px;
+  }
+
+  .cta-card {
+    padding: 28px 20px;
+  }
+
+  .cta-card h2 {
+    font-size: 28px;
+  }
+
+  .cta-actions {
+    gap: 10px;
+
+    flex-direction: column;
+  }
+
+  .cta-actions button,
+  .secondary-button {
+    width: 100%;
+
+    padding-inline: 16px;
+  }
+}
