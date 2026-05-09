@@ -1,5 +1,5 @@
 
-
+import React from "react";
 function Stats() {
   return (
     <section className="stats-band" aria-label="Platform statistics">

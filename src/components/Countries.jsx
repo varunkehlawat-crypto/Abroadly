@@ -1,7 +1,7 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 import { countriesData } from "../data/data";
-
 
 function Countries({ search }) {
   const countries = Object.values(countriesData);

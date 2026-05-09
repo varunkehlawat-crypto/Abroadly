@@ -1,5 +1,5 @@
+import React from "react";
 import { Link } from "react-router-dom";
-
 function CallToAction() {
   return (
     <section className="shell cta-section">

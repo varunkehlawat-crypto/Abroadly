@@ -1,3 +1,4 @@
+import React from "react";
 function Footer() {
   const columns = {
     Platform: ["Countries", "Universities", "Scholarships"],

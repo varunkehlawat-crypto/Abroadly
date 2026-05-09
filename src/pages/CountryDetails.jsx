@@ -1,6 +1,6 @@
+import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { countriesData } from "../data/data";
-
 function CountryDetails() {
   const { slug } = useParams();
 
